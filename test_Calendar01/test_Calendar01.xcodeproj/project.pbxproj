@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2865BBDC25D58D780059CEAA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865BBDB25D58D780059CEAA /* DetailViewController.swift */; };
 		286694C325D4DFB1007A5ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286694C225D4DFB1007A5ABC /* AppDelegate.swift */; };
 		286694C525D4DFB1007A5ABC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286694C425D4DFB1007A5ABC /* SceneDelegate.swift */; };
 		286694C725D4DFB1007A5ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286694C625D4DFB1007A5ABC /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2865BBDB25D58D780059CEAA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		286694BF25D4DFB1007A5ABC /* test_Calendar01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_Calendar01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286694C225D4DFB1007A5ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		286694C425D4DFB1007A5ABC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				286694CB25D4DFB4007A5ABC /* Assets.xcassets */,
 				286694CD25D4DFB4007A5ABC /* LaunchScreen.storyboard */,
 				286694D025D4DFB4007A5ABC /* Info.plist */,
+				2865BBDB25D58D780059CEAA /* DetailViewController.swift */,
 			);
 			path = test_Calendar01;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				286694C725D4DFB1007A5ABC /* ViewController.swift in Sources */,
 				286694C325D4DFB1007A5ABC /* AppDelegate.swift in Sources */,
 				286694C525D4DFB1007A5ABC /* SceneDelegate.swift in Sources */,
+				2865BBDC25D58D780059CEAA /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
