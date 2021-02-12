@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2803C64525D6B12700B0362D /* pleasure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2803C63D25D6B12700B0362D /* pleasure.jpeg */; };
+		2803C64625D6B12700B0362D /* sad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2803C63E25D6B12700B0362D /* sad.jpeg */; };
+		2803C64725D6B12700B0362D /* angry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2803C63F25D6B12700B0362D /* angry.jpeg */; };
+		2803C64825D6B12700B0362D /* proud.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2803C64025D6B12700B0362D /* proud.jpeg */; };
+		2803C64925D6B12700B0362D /* happy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2803C64125D6B12700B0362D /* happy.jpeg */; };
+		2803C64A25D6B12700B0362D /* gloomy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2803C64225D6B12700B0362D /* gloomy.jpeg */; };
+		2803C64B25D6B12700B0362D /* unrest.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2803C64325D6B12700B0362D /* unrest.jpeg */; };
+		2803C64C25D6B12700B0362D /* tired.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2803C64425D6B12700B0362D /* tired.jpeg */; };
+		2803C64F25D6B3E600B0362D /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803C64E25D6B3E600B0362D /* SelectViewController.swift */; };
+		281DF41F25D649C40097F4BA /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DF41E25D649C40097F4BA /* AddViewController.swift */; };
 		2865BBDC25D58D780059CEAA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865BBDB25D58D780059CEAA /* DetailViewController.swift */; };
 		286694C325D4DFB1007A5ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286694C225D4DFB1007A5ABC /* AppDelegate.swift */; };
 		286694C525D4DFB1007A5ABC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286694C425D4DFB1007A5ABC /* SceneDelegate.swift */; };
@@ -23,6 +33,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2803C63D25D6B12700B0362D /* pleasure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pleasure.jpeg; sourceTree = "<group>"; };
+		2803C63E25D6B12700B0362D /* sad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sad.jpeg; sourceTree = "<group>"; };
+		2803C63F25D6B12700B0362D /* angry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry.jpeg; sourceTree = "<group>"; };
+		2803C64025D6B12700B0362D /* proud.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = proud.jpeg; sourceTree = "<group>"; };
+		2803C64125D6B12700B0362D /* happy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy.jpeg; sourceTree = "<group>"; };
+		2803C64225D6B12700B0362D /* gloomy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gloomy.jpeg; sourceTree = "<group>"; };
+		2803C64325D6B12700B0362D /* unrest.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unrest.jpeg; sourceTree = "<group>"; };
+		2803C64425D6B12700B0362D /* tired.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tired.jpeg; sourceTree = "<group>"; };
+		2803C64E25D6B3E600B0362D /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		281DF41E25D649C40097F4BA /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		2865BBDB25D58D780059CEAA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		286694BF25D4DFB1007A5ABC /* test_Calendar01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_Calendar01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286694C225D4DFB1007A5ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,11 +108,13 @@
 				286694C225D4DFB1007A5ABC /* AppDelegate.swift */,
 				286694C425D4DFB1007A5ABC /* SceneDelegate.swift */,
 				286694C625D4DFB1007A5ABC /* ViewController.swift */,
+				2865BBDB25D58D780059CEAA /* DetailViewController.swift */,
+				281DF41E25D649C40097F4BA /* AddViewController.swift */,
 				286694C825D4DFB1007A5ABC /* Main.storyboard */,
 				286694CB25D4DFB4007A5ABC /* Assets.xcassets */,
 				286694CD25D4DFB4007A5ABC /* LaunchScreen.storyboard */,
 				286694D025D4DFB4007A5ABC /* Info.plist */,
-				2865BBDB25D58D780059CEAA /* DetailViewController.swift */,
+				2803C64E25D6B3E600B0362D /* SelectViewController.swift */,
 			);
 			path = test_Calendar01;
 			sourceTree = "<group>";
@@ -100,6 +122,14 @@
 		28866F2A25D4E88F002D2B40 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2803C63F25D6B12700B0362D /* angry.jpeg */,
+				2803C64225D6B12700B0362D /* gloomy.jpeg */,
+				2803C64125D6B12700B0362D /* happy.jpeg */,
+				2803C63D25D6B12700B0362D /* pleasure.jpeg */,
+				2803C64025D6B12700B0362D /* proud.jpeg */,
+				2803C63E25D6B12700B0362D /* sad.jpeg */,
+				2803C64425D6B12700B0362D /* tired.jpeg */,
+				2803C64325D6B12700B0362D /* unrest.jpeg */,
 				28866F3225D4EA7C002D2B40 /* arrow-up-red.png */,
 				28866F3325D4EA7C002D2B40 /* pencil.png */,
 				28866F2D25D4E8AA002D2B40 /* lamp_off.png */,
@@ -176,14 +206,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2803C64B25D6B12700B0362D /* unrest.jpeg in Resources */,
+				2803C64825D6B12700B0362D /* proud.jpeg in Resources */,
+				2803C64625D6B12700B0362D /* sad.jpeg in Resources */,
 				28866F3525D4EA7C002D2B40 /* pencil.png in Resources */,
 				28866F2E25D4E8AA002D2B40 /* lamp_on.png in Resources */,
 				28866F2F25D4E8AA002D2B40 /* lamp_pink.png in Resources */,
+				2803C64C25D6B12700B0362D /* tired.jpeg in Resources */,
 				286694CF25D4DFB4007A5ABC /* LaunchScreen.storyboard in Resources */,
+				2803C64925D6B12700B0362D /* happy.jpeg in Resources */,
 				28866F3025D4E8AA002D2B40 /* lamp_off.png in Resources */,
 				286694CC25D4DFB4007A5ABC /* Assets.xcassets in Resources */,
 				28866F3425D4EA7C002D2B40 /* arrow-up-red.png in Resources */,
+				2803C64A25D6B12700B0362D /* gloomy.jpeg in Resources */,
+				2803C64725D6B12700B0362D /* angry.jpeg in Resources */,
 				286694CA25D4DFB1007A5ABC /* Main.storyboard in Resources */,
+				2803C64525D6B12700B0362D /* pleasure.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,9 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281DF41F25D649C40097F4BA /* AddViewController.swift in Sources */,
 				286694C725D4DFB1007A5ABC /* ViewController.swift in Sources */,
 				286694C325D4DFB1007A5ABC /* AppDelegate.swift in Sources */,
 				286694C525D4DFB1007A5ABC /* SceneDelegate.swift in Sources */,
+				2803C64F25D6B3E600B0362D /* SelectViewController.swift in Sources */,
 				2865BBDC25D58D780059CEAA /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

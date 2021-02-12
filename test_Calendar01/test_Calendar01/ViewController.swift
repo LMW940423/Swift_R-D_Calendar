@@ -80,7 +80,24 @@ class ViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource
     }
     
     @IBAction func btnAdd(_ sender: UIButton) {
-        
+        if selectDate == ""{
+            let shouldSelectAlert = UIAlertController(title: "", message: "날짜를 선택해주세요.", preferredStyle: UIAlertController.Style.alert)
+            let onAction = UIAlertAction(title: "네, 알겠습니다.", style: UIAlertAction.Style.destructive, handler: nil)
+            
+            // UIAlertController.Style.alert => 중앙 배치
+            // UIAlertController.Style.actionSheet => 하단 배치
+            
+            // UIAlertAction.style.default => 파란색
+            // UIAlertAction.style.cancel => 파란색
+            // UIAlertAction.style.destructive => 빨간색
+            
+            // Action은 여러개를 붙일 수 있다!
+            shouldSelectAlert.addAction(onAction)
+            present(shouldSelectAlert, animated: true, completion: nil) // alert실행
+        }else{
+            moveNextView(target : "EmoticonView")
+            emoticonViewSelectDate = selectDate
+        }
     }
     
     private func moveCurrentPage(moveUp: Bool) {
@@ -184,9 +201,7 @@ class ViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource
             text = dateFormatter.string(from: date)
             
             // modal을 pull로 띄우기 (선택날짜 리셋 가능)
-            let vcName = self.storyboard?.instantiateViewController(withIdentifier: "DetailView")
-            vcName?.modalPresentationStyle = .fullScreen
-            self.present(vcName!, animated: true, completion: nil)
+            moveNextView(target : "DetailView")
         }
     }
     // 날짜 선택 해제 시 콜백 메소드
@@ -293,6 +308,20 @@ class ViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource
         }else{
             btnNext.isHidden = false
         }
+    }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "EmoticonView"{
+//            let EmoticonView = segue.destination as! SelectViewController // 보낼 컨트롤러 설정
+//            EmoticonView.selectDate = self.selectDate
+//        }
+//    }
+    
+    // modal로 다음 화면 이동 함수
+    func moveNextView(target : String){
+        let vcName = self.storyboard?.instantiateViewController(withIdentifier: target)
+        vcName?.modalPresentationStyle = .fullScreen
+        self.present(vcName!, animated: true, completion: nil)
     }
     
 }
